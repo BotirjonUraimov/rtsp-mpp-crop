@@ -1,0 +1,3 @@
+/workspace/rtsp-mpp-crop/build/CMakeFiles/rtsp_crop_streamer.dir
+/workspace/rtsp-mpp-crop/build/CMakeFiles/edit_cache.dir
+/workspace/rtsp-mpp-crop/build/CMakeFiles/rebuild_cache.dir

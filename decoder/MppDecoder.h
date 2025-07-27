@@ -3,7 +3,6 @@
 #include <vector>
 #include <cstdint>
 #include <rockchip/rk_mpi.h>
-#include <mpp.h>
 
 class MppDecoder {
 public:

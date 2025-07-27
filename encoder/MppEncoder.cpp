@@ -1,6 +1,9 @@
 #include "MppEncoder.h"
 #include <iostream>
 #include <cstring>
+#include "rk_mpi.h"
+#include "mpp_frame.h"
+#include "mpp_enc_cfg.h"
 
 MppEncoder::MppEncoder(int w, int h)
     : width(w), height(h), ctx(nullptr), mpi(nullptr), cfg(nullptr) {}

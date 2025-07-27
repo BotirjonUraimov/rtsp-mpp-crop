@@ -9,32 +9,41 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/decoder
     ${CMAKE_SOURCE_DIR}/encoder
     ${CMAKE_SOURCE_DIR}/crop
-    ${CMAKE_SOURCE_DIR}/rtsp_input
-    ${CMAKE_SOURCE_DIR}/rtsp_output
+    ${CMAKE_SOURCE_DIR}/rtsp_client
+    ${CMAKE_SOURCE_DIR}/rtsp_server
     /usr/include/rga 
+    /usr/local/include
+    /usr/local/include/rockchip
+    /usr/local/include/liveMedia
+    /usr/local/include/groupsock
+    /usr/local/include/UsageEnvironment
+    /usr/local/include/BasicUsageEnvironment
 )
+
+link_directories(/usr/local/lib)
 
 # Source files
 set(SOURCES
     main.cpp
     decoder/MppDecoder.cpp
     encoder/MppEncoder.cpp
-    crop/Im2dCrop.cpp
-    rtsp_input/LiveRtspInput.cpp
-    rtsp_output/LiveRtspOutput.cpp
+    crop/RgaCrop.cpp # <== RgaCrop ishlatyapmiz  
+    rtsp_client/LiveRtspInput.cpp
+    rtsp_server/LiveRtspOutput.cpp
 )
 
 # Libraries
 find_library(MPP_LIB rockchip_mpp REQUIRED)
-find_library(IM2D_LIB rga REQUIRED) 
+find_library(RGA_LIB NAMES rga Rga REQUIRED PATHS /usr/lib /usr/local/lib)
+# find_library(IM2D_LIB rga REQUIRED) 
 #find_library(IM2D_LIB im2d REQUIRED)
 
 # live555 components
-find_path(LIVE555_INCLUDE_DIR liveMedia.hh PATH_SUFFIXES liveMedia)
-find_library(LIVEMEDIA_LIB liveMedia)
-find_library(GROUPSOCK_LIB groupsock)
-find_library(USAGEENV_LIB UsageEnvironment)
-find_library(BASICTASK_LIB BasicUsageEnvironment)
+#find_path(LIVE555_INCLUDE_DIR liveMedia.hh PATH_SUFFIXES liveMedia)
+find_library(LIVEMEDIA_LIB liveMedia REQUIRED)
+find_library(GROUPSOCK_LIB groupsock REQUIRED)
+find_library(USAGEENV_LIB UsageEnvironment REQUIRED)
+find_library(BASICENV_LIB BasicUsageEnvironment REQUIRED)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
@@ -44,10 +53,10 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 
 target_link_libraries(${PROJECT_NAME}
     ${MPP_LIB}
-    ${IM2D_LIB}
+    ${RGA_LIB} # <--- RGA ishlatyapmiz
     ${LIVEMEDIA_LIB}
     ${GROUPSOCK_LIB}
     ${USAGEENV_LIB}
-    ${BASICTASK_LIB}
+    ${BASICENV_LIB}
     pthread
 )

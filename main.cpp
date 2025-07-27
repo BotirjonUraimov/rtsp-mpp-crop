@@ -2,7 +2,8 @@
 #include <iostream>
 #include "decoder/MppDecoder.h"
 #include "encoder/MppEncoder.h"
-#include "crop/Im2dCrop.h"
+// #include "crop/Im2dCrop.h"
+#include "crop/RgaCrop.h"   
 #include "rtsp_client/LiveRtspInput.h"
 #include "rtsp_server/LiveRtspOutput.h"
 
@@ -27,7 +28,9 @@ int main() {
     }
 
     // 3. Init cropper
-    Im2dCrop cropper;
+    // Im2dCrop cropper;
+    // cropper.set_roi(0, 0, 1920, 1080);
+    RgaCrop cropper;                            // <== RgaCrop ishlatyapmiz
     cropper.set_roi(0, 0, 1920, 1080);
 
     // 4. Start RTSP input thread
