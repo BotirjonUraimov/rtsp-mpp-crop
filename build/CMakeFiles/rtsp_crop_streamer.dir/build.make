@@ -178,6 +178,8 @@ rtsp_crop_streamer: /usr/local/lib/libliveMedia.a
 rtsp_crop_streamer: /usr/local/lib/libgroupsock.a
 rtsp_crop_streamer: /usr/local/lib/libUsageEnvironment.a
 rtsp_crop_streamer: /usr/local/lib/libBasicUsageEnvironment.a
+rtsp_crop_streamer: /usr/lib/x86_64-linux-gnu/libssl.so
+rtsp_crop_streamer: /usr/lib/x86_64-linux-gnu/libcrypto.so
 rtsp_crop_streamer: CMakeFiles/rtsp_crop_streamer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable rtsp_crop_streamer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtsp_crop_streamer.dir/link.txt --verbose=$(VERBOSE)

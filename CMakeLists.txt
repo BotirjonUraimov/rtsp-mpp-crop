@@ -44,7 +44,7 @@ find_library(LIVEMEDIA_LIB liveMedia REQUIRED)
 find_library(GROUPSOCK_LIB groupsock REQUIRED)
 find_library(USAGEENV_LIB UsageEnvironment REQUIRED)
 find_library(BASICENV_LIB BasicUsageEnvironment REQUIRED)
-
+find_package(OpenSSL REQUIRED)
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE
@@ -58,5 +58,11 @@ target_link_libraries(${PROJECT_NAME}
     ${GROUPSOCK_LIB}
     ${USAGEENV_LIB}
     ${BASICENV_LIB}
+    -lliveMedia
+    -lBasicUsageEnvironment
+    -lUsageEnvironment
+    -lgroupsock
+    OpenSSL::SSL
+    OpenSSL::Crypto
     pthread
 )

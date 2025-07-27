@@ -179,7 +179,4 @@ CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/local/include/rockchip/rk_type.h \
- /usr/local/include/rga/RockchipRga.h /usr/include/rga/RockchipRga.h \
- /usr/include/rga/drmrga.h /usr/include/rga/GrallocOps.h \
- /usr/include/rga/RgaUtils.h /usr/include/rga/rga.h \
- /usr/include/rga/RgaSingleton.h /usr/include/rga/RgaMutex.h
+ /usr/local/include/rga/RockchipRga.h

@@ -14,6 +14,7 @@ int main() {
     std::cout << "[INFO] Starting RTSP crop streamer...\n";
 
     // 1. Init decoder
+    std::cout << "[INFO] Initializing MPP decoder...\n";
     MppDecoder decoder;
     if (!decoder.init(MPP_VIDEO_CodingAVC)) {
         std::cerr << "[ERROR] Decoder init failed" << std::endl;
@@ -21,6 +22,7 @@ int main() {
     }
 
     // 2. Init encoder
+    std::cout << "[INFO] Initializing MPP encoder...\n";
     MppEncoder encoder(1920, 1080);
     if (!encoder.init()) {
         std::cerr << "[ERROR] Encoder init failed" << std::endl;
@@ -30,10 +32,12 @@ int main() {
     // 3. Init cropper
     // Im2dCrop cropper;
     // cropper.set_roi(0, 0, 1920, 1080);
+    std::cout << "[INFO] Initializing RGA cropper...\n";
     RgaCrop cropper;                            // <== RgaCrop ishlatyapmiz
     cropper.set_roi(0, 0, 1920, 1080);
 
     // 4. Start RTSP input thread
+    std::cout << "[INFO] Starting RTSP input...\n";
     LiveRtspInput input(INPUT_RTSP);
     input.set_on_frame([&](uint8_t* data, size_t size) {
         MppFrame frame;
@@ -50,6 +54,7 @@ int main() {
     input.start();
 
     // 5. Start live555 RTSP server
+    std::cout << "[INFO] Starting RTSP output server...\n";
     LiveRtspOutput server("/tmp/encoded.h264", 8554, "crop");
     server.run();
 

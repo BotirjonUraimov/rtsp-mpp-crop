@@ -11,7 +11,7 @@
 #include <rga/rga.h>
 #include <rga/RgaApi.h>
 #include "mpp_frame.h"
-#include <RockchipRga.h>  // for RK_FORMAT_NV12
+// #include <rga/RockchipRga.h>  // for RK_FORMAT_NV12
 
 
 
@@ -61,7 +61,8 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     srcinfo.rect.height  = roi_h;
     srcinfo.rect.wstride = src_w;
     srcinfo.rect.hstride = src_h;
-    srcinfo.format = RK_FORMAT_NV12;
+    //srcinfo.format = RK_FORMAT_NV12;
+    srcinfo.format = MPP_FMT_BUTT;
 
     dstinfo.fd = mpp_buffer_get_fd(dst_buf);
     dstinfo.mmuFlag = 1;
@@ -71,7 +72,8 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     dstinfo.rect.height  = roi_h;
     dstinfo.rect.wstride = roi_w;
     dstinfo.rect.hstride = roi_h;
-    dstinfo.format = RK_FORMAT_NV12;
+    //dstinfo.format = RK_FORMAT_NV12;
+    dstinfo.format = MPP_FMT_BUTT;
 
     int ret = rgautil.RkRgaBlit(&srcinfo, &dstinfo, nullptr);
     if (ret) {
@@ -83,7 +85,8 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     if (mpp_frame_init(&dst) != MPP_OK) return false;
     mpp_frame_set_width(dst, roi_w);
     mpp_frame_set_height(dst, roi_h);
-    mpp_frame_set_format(dst, MPP_FMT_NV12);
+    mpp_frame_set_fmt(dst, MPP_FMT_BUTT);
+   // mpp_frame_set_format(dst, MPP_FMT_NV12);
     mpp_frame_set_buffer(dst, dst_buf);
 
     return true;

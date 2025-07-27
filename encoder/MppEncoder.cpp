@@ -3,7 +3,8 @@
 #include <cstring>
 #include "rk_mpi.h"
 #include "mpp_frame.h"
-#include "mpp_enc_cfg.h"
+// #include "mpp_encoder.h"
+// #include "mpp_enc_cfg.h"
 
 MppEncoder::MppEncoder(int w, int h)
     : width(w), height(h), ctx(nullptr), mpi(nullptr), cfg(nullptr) {}
@@ -13,11 +14,13 @@ MppEncoder::~MppEncoder() {
 }
 
 bool MppEncoder::init() {
+    std::cout << "[ENC] Initializing MPP encoder...\n";
     if (mpp_create(&ctx, &mpi) != MPP_OK) {
         std::cerr << "[ENC] Failed to create encoder ctx\n";
         return false;
     }
 
+    
     if (mpp_init(ctx, MPP_CTX_ENC, MPP_VIDEO_CodingAVC) != MPP_OK) {
         std::cerr << "[ENC] Failed to init encoder\n";
         return false;
@@ -33,7 +36,8 @@ bool MppEncoder::init() {
     mpp_enc_cfg_set_s32(cfg, "prep:height",       height);
     mpp_enc_cfg_set_s32(cfg, "prep:hor_stride",   width);
     mpp_enc_cfg_set_s32(cfg, "prep:ver_stride",   height);
-    mpp_enc_cfg_set_s32(cfg, "prep:format",       MPP_FMT_NV12);
+    //mpp_enc_cfg_set_s32(cfg, "prep:format",       MPP_FMT_NV12);
+    mpp_enc_cfg_set_s32(cfg, "prep:format",       MPP_FMT_BUTT);
 
     // Coding settings
     mpp_enc_cfg_set_s32(cfg, "rc:mode",           MPP_ENC_RC_MODE_CBR);
