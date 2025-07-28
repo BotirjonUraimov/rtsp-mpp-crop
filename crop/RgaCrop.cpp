@@ -15,6 +15,12 @@
 
 
 
+
+#ifndef MPP_FMT_NV12
+#define MPP_FMT_NV12 MPP_FMT_YUV420SP
+#endif
+
+
 RgaCrop::RgaCrop()
     : roi_x(0), roi_y(0), roi_w(0), roi_h(0) {}
 
@@ -62,7 +68,7 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     srcinfo.rect.wstride = src_w;
     srcinfo.rect.hstride = src_h;
     //srcinfo.format = RK_FORMAT_NV12;
-    srcinfo.format = MPP_FMT_BUTT;
+    srcinfo.format = MPP_FMT_NV12;
 
     dstinfo.fd = mpp_buffer_get_fd(dst_buf);
     dstinfo.mmuFlag = 1;
@@ -73,7 +79,7 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     dstinfo.rect.wstride = roi_w;
     dstinfo.rect.hstride = roi_h;
     //dstinfo.format = RK_FORMAT_NV12;
-    dstinfo.format = MPP_FMT_BUTT;
+    dstinfo.format = MPP_FMT_NV12;
 
     int ret = rgautil.RkRgaBlit(&srcinfo, &dstinfo, nullptr);
     if (ret) {
@@ -85,7 +91,7 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     if (mpp_frame_init(&dst) != MPP_OK) return false;
     mpp_frame_set_width(dst, roi_w);
     mpp_frame_set_height(dst, roi_h);
-    mpp_frame_set_fmt(dst, MPP_FMT_BUTT);
+    mpp_frame_set_fmt(dst, MPP_FMT_NV12);
    // mpp_frame_set_format(dst, MPP_FMT_NV12);
     mpp_frame_set_buffer(dst, dst_buf);
 

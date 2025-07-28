@@ -1,68 +1,66 @@
+
 cmake_minimum_required(VERSION 3.10)
 project(rtsp_crop_streamer)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Include directories
+
+
+
+
 include_directories(
     ${CMAKE_SOURCE_DIR}/decoder
     ${CMAKE_SOURCE_DIR}/encoder
     ${CMAKE_SOURCE_DIR}/crop
     ${CMAKE_SOURCE_DIR}/rtsp_client
     ${CMAKE_SOURCE_DIR}/rtsp_server
-    /usr/include/rga 
-    /usr/local/include
-    /usr/local/include/rockchip
-    /usr/local/include/liveMedia
-    /usr/local/include/groupsock
-    /usr/local/include/UsageEnvironment
-    /usr/local/include/BasicUsageEnvironment
+    /workspace/live/liveMedia/include
+    /workspace/live/groupsock/include
+    /workspace/live/BasicUsageEnvironment/include
+    /workspace/live/UsageEnvironment/include
+    /workspace/live/include
+    /usr/local/include         # for rga/rga.h
+    /usr/local/include/rockchip # if rk_mpi.h is here
+    /usr/include/rockchip        # fallback
+    /opt/openssl-aarch64/include
 )
 
-link_directories(/usr/local/lib)
+link_directories(
+    /workspace/live/liveMedia
+    /workspace/live/groupsock
+    /workspace/live/BasicUsageEnvironment
+    /workspace/live/UsageEnvironment
+)
 
-# Source files
 set(SOURCES
     main.cpp
     decoder/MppDecoder.cpp
     encoder/MppEncoder.cpp
-    crop/RgaCrop.cpp # <== RgaCrop ishlatyapmiz  
+    crop/RgaCrop.cpp
     rtsp_client/LiveRtspInput.cpp
     rtsp_server/LiveRtspOutput.cpp
 )
 
-# Libraries
-find_library(MPP_LIB rockchip_mpp REQUIRED)
-find_library(RGA_LIB NAMES rga Rga REQUIRED PATHS /usr/lib /usr/local/lib)
-# find_library(IM2D_LIB rga REQUIRED) 
-#find_library(IM2D_LIB im2d REQUIRED)
-
-# live555 components
-#find_path(LIVE555_INCLUDE_DIR liveMedia.hh PATH_SUFFIXES liveMedia)
-find_library(LIVEMEDIA_LIB liveMedia REQUIRED)
-find_library(GROUPSOCK_LIB groupsock REQUIRED)
-find_library(USAGEENV_LIB UsageEnvironment REQUIRED)
-find_library(BASICENV_LIB BasicUsageEnvironment REQUIRED)
-find_package(OpenSSL REQUIRED)
-add_executable(${PROJECT_NAME} ${SOURCES})
-
-target_include_directories(${PROJECT_NAME} PRIVATE
-    ${LIVE555_INCLUDE_DIR}
+find_library(MPP_LIB rockchip_mpp
+    PATHS /workspace/mpp/build/linux/aarch64/mpp
+    REQUIRED
 )
 
+find_library(RGA_LIB NAMES rga Rga
+    PATHS /usr/lib /usr/local/lib
+    REQUIRED
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES})
+
 target_link_libraries(${PROJECT_NAME}
+    liveMedia
+    groupsock
+    BasicUsageEnvironment
+    UsageEnvironment
     ${MPP_LIB}
-    ${RGA_LIB} # <--- RGA ishlatyapmiz
-    ${LIVEMEDIA_LIB}
-    ${GROUPSOCK_LIB}
-    ${USAGEENV_LIB}
-    ${BASICENV_LIB}
-    -lliveMedia
-    -lBasicUsageEnvironment
-    -lUsageEnvironment
-    -lgroupsock
-    OpenSSL::SSL
-    OpenSSL::Crypto
+    ${RGA_LIB}
+    /workspace/openssl/build/opt/openssl/lib/libssl.so
+    /workspace/openssl/build/opt/openssl/lib/libcrypto.so
     pthread
 )

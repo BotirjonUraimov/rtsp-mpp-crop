@@ -73,85 +73,85 @@ CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/
 CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o: ../main.cpp
 CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o -c /workspace/rtsp-mpp-crop/main.cpp
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/main.cpp.o -c /workspace/rtsp-mpp-crop/main.cpp
 
 CMakeFiles/rtsp_crop_streamer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsp_crop_streamer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/main.cpp > CMakeFiles/rtsp_crop_streamer.dir/main.cpp.i
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/main.cpp > CMakeFiles/rtsp_crop_streamer.dir/main.cpp.i
 
 CMakeFiles/rtsp_crop_streamer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsp_crop_streamer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/main.cpp -o CMakeFiles/rtsp_crop_streamer.dir/main.cpp.s
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/main.cpp -o CMakeFiles/rtsp_crop_streamer.dir/main.cpp.s
 
 CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/flags.make
 CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o: ../decoder/MppDecoder.cpp
 CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o -c /workspace/rtsp-mpp-crop/decoder/MppDecoder.cpp
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.o -c /workspace/rtsp-mpp-crop/decoder/MppDecoder.cpp
 
 CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/decoder/MppDecoder.cpp > CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.i
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/decoder/MppDecoder.cpp > CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.i
 
 CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/decoder/MppDecoder.cpp -o CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.s
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/decoder/MppDecoder.cpp -o CMakeFiles/rtsp_crop_streamer.dir/decoder/MppDecoder.cpp.s
 
 CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/flags.make
 CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o: ../encoder/MppEncoder.cpp
 CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o -c /workspace/rtsp-mpp-crop/encoder/MppEncoder.cpp
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.o -c /workspace/rtsp-mpp-crop/encoder/MppEncoder.cpp
 
 CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/encoder/MppEncoder.cpp > CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.i
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/encoder/MppEncoder.cpp > CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.i
 
 CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/encoder/MppEncoder.cpp -o CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.s
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/encoder/MppEncoder.cpp -o CMakeFiles/rtsp_crop_streamer.dir/encoder/MppEncoder.cpp.s
 
 CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/flags.make
 CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o: ../crop/RgaCrop.cpp
 CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o -c /workspace/rtsp-mpp-crop/crop/RgaCrop.cpp
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.o -c /workspace/rtsp-mpp-crop/crop/RgaCrop.cpp
 
 CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/crop/RgaCrop.cpp > CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.i
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/crop/RgaCrop.cpp > CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.i
 
 CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/crop/RgaCrop.cpp -o CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.s
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/crop/RgaCrop.cpp -o CMakeFiles/rtsp_crop_streamer.dir/crop/RgaCrop.cpp.s
 
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/flags.make
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o: ../rtsp_client/LiveRtspInput.cpp
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o -c /workspace/rtsp-mpp-crop/rtsp_client/LiveRtspInput.cpp
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o -c /workspace/rtsp-mpp-crop/rtsp_client/LiveRtspInput.cpp
 
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/rtsp_client/LiveRtspInput.cpp > CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.i
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/rtsp_client/LiveRtspInput.cpp > CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.i
 
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/rtsp_client/LiveRtspInput.cpp -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.s
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/rtsp_client/LiveRtspInput.cpp -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.s
 
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/flags.make
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o: ../rtsp_server/LiveRtspOutput.cpp
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o: CMakeFiles/rtsp_crop_streamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o -c /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o -MF CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o.d -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o -c /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp
 
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp > CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.i
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp > CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.i
 
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.s
+	/opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp -o CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.s
 
 # Object files for target rtsp_crop_streamer
 rtsp_crop_streamer_OBJECTS = \
@@ -173,13 +173,9 @@ rtsp_crop_streamer: CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.
 rtsp_crop_streamer: CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o
 rtsp_crop_streamer: CMakeFiles/rtsp_crop_streamer.dir/build.make
 rtsp_crop_streamer: /usr/local/lib/librockchip_mpp.so
-rtsp_crop_streamer: /usr/local/lib/x86_64-linux-gnu/librga.so
-rtsp_crop_streamer: /usr/local/lib/libliveMedia.a
-rtsp_crop_streamer: /usr/local/lib/libgroupsock.a
-rtsp_crop_streamer: /usr/local/lib/libUsageEnvironment.a
-rtsp_crop_streamer: /usr/local/lib/libBasicUsageEnvironment.a
-rtsp_crop_streamer: /usr/lib/x86_64-linux-gnu/libssl.so
-rtsp_crop_streamer: /usr/lib/x86_64-linux-gnu/libcrypto.so
+rtsp_crop_streamer: /usr/local/lib/librga.so
+rtsp_crop_streamer: /workspace/openssl/build/opt/openssl/lib/libssl.so
+rtsp_crop_streamer: /workspace/openssl/build/opt/openssl/lib/libcrypto.so
 rtsp_crop_streamer: CMakeFiles/rtsp_crop_streamer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/rtsp-mpp-crop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable rtsp_crop_streamer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtsp_crop_streamer.dir/link.txt --verbose=$(VERBOSE)

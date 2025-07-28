@@ -1,411 +1,462 @@
 CMakeFiles/rtsp_crop_streamer.dir/rtsp_server/LiveRtspOutput.cpp.o: \
  /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.cpp \
- /usr/include/stdc-predef.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
  /workspace/rtsp-mpp-crop/rtsp_server/LiveRtspOutput.h \
- /usr/include/c++/11/string \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/bits/stringfwd.h \
- /usr/include/c++/11/bits/memoryfwd.h \
- /usr/include/c++/11/bits/char_traits.h \
- /usr/include/c++/11/bits/stl_algobase.h \
- /usr/include/c++/11/bits/functexcept.h \
- /usr/include/c++/11/bits/exception_defines.h \
- /usr/include/c++/11/bits/cpp_type_traits.h \
- /usr/include/c++/11/ext/type_traits.h \
- /usr/include/c++/11/ext/numeric_traits.h \
- /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
- /usr/include/c++/11/type_traits \
- /usr/include/c++/11/bits/stl_iterator_base_types.h \
- /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/11/bits/concept_check.h \
- /usr/include/c++/11/debug/assertions.h \
- /usr/include/c++/11/bits/stl_iterator.h \
- /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
- /usr/include/c++/11/bits/predefined_ops.h \
- /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
- /usr/include/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/11/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/11/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
- /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
- /usr/include/c++/11/bits/exception.h \
- /usr/include/c++/11/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
- /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd \
- /usr/include/c++/11/cctype /usr/include/ctype.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/stl_function.h \
- /usr/include/c++/11/backward/binders.h \
- /usr/include/c++/11/bits/range_access.h \
- /usr/include/c++/11/initializer_list \
- /usr/include/c++/11/bits/basic_string.h \
- /usr/include/c++/11/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/11/ext/alloc_traits.h \
- /usr/include/c++/11/bits/alloc_traits.h \
- /usr/include/c++/11/bits/stl_construct.h \
- /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdlib \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/11/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/functional_hash.h \
- /usr/include/c++/11/bits/hash_bytes.h \
- /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/mutex \
- /usr/include/c++/11/tuple /usr/include/c++/11/utility \
- /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
- /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/system_error \
- /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/local/include/liveMedia/liveMedia.hh \
- /usr/local/include/liveMedia/JPEG2000VideoRTPSource.hh \
- /usr/local/include/liveMedia/MultiFramedRTPSource.hh \
- /usr/local/include/liveMedia/RTPSource.hh \
- /usr/local/include/liveMedia/FramedSource.hh \
- /usr/local/include/groupsock/NetCommon.h \
- /usr/include/x86_64-linux-gnu/sys/socket.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/x86_64-linux-gnu/bits/socket.h \
- /usr/include/x86_64-linux-gnu/bits/socket_type.h \
- /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
- /usr/include/x86_64-linux-gnu/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h \
- /usr/include/x86_64-linux-gnu/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/netinet/in.h \
- /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
- /usr/include/netdb.h /usr/include/rpc/netdb.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/11/stdlib.h \
- /usr/local/include/liveMedia/MediaSource.hh \
- /usr/local/include/liveMedia/Media.hh \
- /usr/local/include/liveMedia/liveMedia_version.hh \
- /usr/local/include/UsageEnvironment/HashTable.hh \
- /usr/local/include/UsageEnvironment/Boolean.hh \
- /usr/local/include/UsageEnvironment/UsageEnvironment.hh \
- /usr/local/include/UsageEnvironment/UsageEnvironment_version.hh \
- /usr/local/include/UsageEnvironment/strDup.hh \
- /usr/local/include/liveMedia/RTPInterface.hh \
- /usr/local/include/liveMedia/TLSState.hh /usr/include/openssl/ssl.h \
- /usr/include/openssl/macros.h \
- /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
- /usr/include/x86_64-linux-gnu/openssl/configuration.h \
- /usr/include/openssl/opensslv.h /usr/include/openssl/e_os2.h \
- /usr/include/openssl/comp.h /usr/include/openssl/crypto.h \
- /usr/include/openssl/safestack.h /usr/include/openssl/stack.h \
- /usr/include/openssl/types.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/openssl/cryptoerr.h /usr/include/openssl/symhacks.h \
- /usr/include/openssl/cryptoerr_legacy.h /usr/include/openssl/core.h \
- /usr/include/openssl/comperr.h /usr/include/openssl/bio.h \
- /usr/include/openssl/bioerr.h /usr/include/openssl/x509.h \
- /usr/include/openssl/buffer.h /usr/include/openssl/buffererr.h \
- /usr/include/openssl/evp.h /usr/include/openssl/core_dispatch.h \
- /usr/include/openssl/evperr.h /usr/include/openssl/params.h \
- /usr/include/openssl/bn.h /usr/include/openssl/bnerr.h \
- /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
- /usr/include/openssl/asn1.h /usr/include/openssl/asn1err.h \
- /usr/include/openssl/objectserr.h /usr/include/openssl/ec.h \
- /usr/include/openssl/ecerr.h /usr/include/openssl/rsa.h \
- /usr/include/openssl/rsaerr.h /usr/include/openssl/dsa.h \
- /usr/include/openssl/dh.h /usr/include/openssl/dherr.h \
- /usr/include/openssl/dsaerr.h /usr/include/openssl/sha.h \
- /usr/include/openssl/x509err.h /usr/include/openssl/x509_vfy.h \
- /usr/include/openssl/lhash.h /usr/include/openssl/pkcs7.h \
- /usr/include/openssl/pkcs7err.h /usr/include/openssl/ocsp.h \
- /usr/include/openssl/http.h /usr/include/openssl/conf.h \
- /usr/include/openssl/conferr.h /usr/include/openssl/conftypes.h \
- /usr/include/openssl/x509v3.h /usr/include/openssl/x509v3err.h \
- /usr/include/openssl/ocsperr.h /usr/include/openssl/pem.h \
- /usr/include/openssl/pemerr.h /usr/include/openssl/hmac.h \
- /usr/include/openssl/async.h /usr/include/openssl/asyncerr.h \
- /usr/include/openssl/ct.h /usr/include/openssl/cterr.h \
- /usr/include/openssl/sslerr.h /usr/include/openssl/sslerr_legacy.h \
- /usr/include/openssl/prov_ssl.h /usr/include/openssl/ssl2.h \
- /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
- /usr/include/openssl/dtls1.h /usr/include/openssl/srtp.h \
- /usr/local/include/groupsock/Groupsock.hh \
- /usr/local/include/groupsock/groupsock_version.hh \
- /usr/local/include/groupsock/NetInterface.hh \
- /usr/local/include/groupsock/NetAddress.hh \
- /usr/local/include/groupsock/GroupEId.hh \
- /usr/local/include/liveMedia/SRTPCryptographicContext.hh \
- /usr/local/include/liveMedia/MIKEY.hh \
- /usr/local/include/liveMedia/JPEG2000VideoRTPSink.hh \
- /usr/local/include/liveMedia/VideoRTPSink.hh \
- /usr/local/include/liveMedia/MultiFramedRTPSink.hh \
- /usr/local/include/liveMedia/RTPSink.hh \
- /usr/local/include/liveMedia/MediaSink.hh \
- /usr/local/include/liveMedia/MPEG1or2AudioRTPSink.hh \
- /usr/local/include/liveMedia/AudioRTPSink.hh \
- /usr/local/include/liveMedia/MP3ADURTPSink.hh \
- /usr/local/include/liveMedia/MPEG1or2VideoRTPSink.hh \
- /usr/local/include/liveMedia/MPEG4ESVideoRTPSink.hh \
- /usr/local/include/liveMedia/AMRAudioFileSink.hh \
- /usr/local/include/liveMedia/FileSink.hh \
- /usr/local/include/liveMedia/H264VideoFileSink.hh \
- /usr/local/include/liveMedia/H264or5VideoFileSink.hh \
- /usr/local/include/liveMedia/H265VideoFileSink.hh \
- /usr/local/include/liveMedia/OggFileSink.hh \
- /usr/local/include/liveMedia/BasicUDPSink.hh \
- /usr/local/include/liveMedia/GSMAudioRTPSink.hh \
- /usr/local/include/liveMedia/H263plusVideoRTPSink.hh \
- /usr/local/include/liveMedia/H264VideoRTPSink.hh \
- /usr/local/include/liveMedia/H264or5VideoRTPSink.hh \
- /usr/local/include/liveMedia/FramedFilter.hh \
- /usr/local/include/liveMedia/H265VideoRTPSink.hh \
- /usr/local/include/liveMedia/DVVideoRTPSource.hh \
- /usr/local/include/liveMedia/DVVideoRTPSink.hh \
- /usr/local/include/liveMedia/DVVideoStreamFramer.hh \
- /usr/local/include/liveMedia/H264VideoStreamFramer.hh \
- /usr/local/include/liveMedia/H264or5VideoStreamFramer.hh \
- /usr/local/include/liveMedia/MPEGVideoStreamFramer.hh \
- /usr/local/include/liveMedia/H265VideoStreamFramer.hh \
- /usr/local/include/liveMedia/H264VideoStreamDiscreteFramer.hh \
- /usr/local/include/liveMedia/H264or5VideoStreamDiscreteFramer.hh \
- /usr/local/include/liveMedia/H265VideoStreamDiscreteFramer.hh \
- /usr/local/include/liveMedia/JPEGVideoRTPSink.hh \
- /usr/local/include/liveMedia/SimpleRTPSink.hh \
- /usr/local/include/liveMedia/uLawAudioFilter.hh \
- /usr/local/include/liveMedia/MPEG2IndexFromTransportStream.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamTrickModeFilter.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamIndexFile.hh \
- /usr/local/include/liveMedia/ByteStreamMultiFileSource.hh \
- /usr/local/include/liveMedia/ByteStreamFileSource.hh \
- /usr/local/include/liveMedia/FramedFileSource.hh \
- /usr/local/include/liveMedia/ByteStreamMemoryBufferSource.hh \
- /usr/local/include/liveMedia/BasicUDPSource.hh \
- /usr/local/include/liveMedia/SimpleRTPSource.hh \
- /usr/local/include/liveMedia/MPEG1or2AudioRTPSource.hh \
- /usr/local/include/liveMedia/MPEG4LATMAudioRTPSource.hh \
- /usr/local/include/liveMedia/MPEG4LATMAudioRTPSink.hh \
- /usr/local/include/liveMedia/MPEG4ESVideoRTPSource.hh \
- /usr/local/include/liveMedia/MPEG4GenericRTPSource.hh \
- /usr/local/include/liveMedia/MP3ADURTPSource.hh \
- /usr/local/include/liveMedia/QCELPAudioRTPSource.hh \
- /usr/local/include/liveMedia/AMRAudioRTPSource.hh \
- /usr/local/include/liveMedia/AMRAudioSource.hh \
- /usr/local/include/liveMedia/JPEGVideoRTPSource.hh \
- /usr/local/include/liveMedia/JPEGVideoSource.hh \
- /usr/local/include/liveMedia/MPEG1or2VideoRTPSource.hh \
- /usr/local/include/liveMedia/VorbisAudioRTPSource.hh \
- /usr/local/include/liveMedia/TheoraVideoRTPSource.hh \
- /usr/local/include/liveMedia/VP8VideoRTPSource.hh \
- /usr/local/include/liveMedia/VP9VideoRTPSource.hh \
- /usr/local/include/liveMedia/RawVideoRTPSource.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamFromPESSource.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamMultiplexor.hh \
- /usr/local/include/liveMedia/MPEG1or2Demux.hh \
- /usr/local/include/liveMedia/MPEG1or2DemuxedElementaryStream.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamFromESSource.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamFramer.hh \
- /usr/local/include/liveMedia/ADTSAudioFileSource.hh \
- /usr/local/include/liveMedia/ADTSAudioStreamDiscreteFramer.hh \
- /usr/local/include/liveMedia/H261VideoRTPSource.hh \
- /usr/local/include/liveMedia/H263plusVideoRTPSource.hh \
- /usr/local/include/liveMedia/H264VideoRTPSource.hh \
- /usr/local/include/liveMedia/H265VideoRTPSource.hh \
- /usr/local/include/liveMedia/MP3FileSource.hh \
- /usr/local/include/liveMedia/MP3ADU.hh \
- /usr/local/include/liveMedia/MP3ADUinterleaving.hh \
- /usr/local/include/liveMedia/MP3Transcoder.hh \
- /usr/local/include/liveMedia/MP3ADUTranscoder.hh \
- /usr/local/include/liveMedia/MPEG1or2AudioStreamFramer.hh \
- /usr/local/include/liveMedia/H263plusVideoStreamFramer.hh \
- /usr/local/include/liveMedia/AC3AudioStreamFramer.hh \
- /usr/local/include/liveMedia/AC3AudioRTPSource.hh \
- /usr/local/include/liveMedia/AC3AudioRTPSink.hh \
- /usr/local/include/liveMedia/VorbisAudioRTPSink.hh \
- /usr/local/include/liveMedia/TheoraVideoRTPSink.hh \
- /usr/local/include/liveMedia/VP8VideoRTPSink.hh \
- /usr/local/include/liveMedia/VP9VideoRTPSink.hh \
- /usr/local/include/liveMedia/MPEG4GenericRTPSink.hh \
- /usr/local/include/liveMedia/RawVideoRTPSink.hh \
- /usr/local/include/liveMedia/RawVideoFrameParameters.hh \
- /usr/local/include/liveMedia/MPEG1or2VideoStreamDiscreteFramer.hh \
- /usr/local/include/liveMedia/MPEG1or2VideoStreamFramer.hh \
- /usr/local/include/liveMedia/MPEG4VideoStreamDiscreteFramer.hh \
- /usr/local/include/liveMedia/MPEG4VideoStreamFramer.hh \
- /usr/local/include/liveMedia/DeviceSource.hh \
- /usr/local/include/liveMedia/AudioInputDevice.hh \
- /usr/local/include/liveMedia/WAVAudioFileSource.hh \
- /usr/local/include/liveMedia/StreamReplicator.hh \
- /usr/local/include/liveMedia/RTSPRegisterSender.hh \
- /usr/local/include/liveMedia/RTSPClient.hh \
- /usr/local/include/liveMedia/MediaSession.hh \
- /usr/local/include/liveMedia/RTCP.hh \
- /usr/local/include/liveMedia/DigestAuthentication.hh \
- /usr/local/include/liveMedia/RTSPServer.hh \
- /usr/local/include/liveMedia/GenericMediaServer.hh \
- /usr/local/include/liveMedia/ServerMediaSession.hh \
- /usr/local/include/liveMedia/SIPClient.hh \
- /usr/local/include/liveMedia/QuickTimeFileSink.hh \
- /usr/local/include/liveMedia/QuickTimeGenericRTPSource.hh \
- /usr/local/include/liveMedia/AVIFileSink.hh \
- /usr/local/include/liveMedia/PassiveServerMediaSubsession.hh \
- /usr/local/include/liveMedia/MPEG4VideoFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/FileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/OnDemandServerMediaSubsession.hh \
- /usr/local/include/liveMedia/H264VideoFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/H265VideoFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/WAVAudioFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/AMRAudioFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/AMRAudioFileSource.hh \
- /usr/local/include/liveMedia/AMRAudioRTPSink.hh \
- /usr/local/include/liveMedia/T140TextRTPSink.hh \
- /usr/local/include/liveMedia/TextRTPSink.hh \
- /usr/local/include/liveMedia/MP3AudioFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/MPEG1or2VideoFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/MPEG1or2FileServerDemux.hh \
- /usr/local/include/liveMedia/MPEG2TransportFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/H263plusVideoFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/ADTSAudioFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/DVVideoFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/AC3AudioFileServerMediaSubsession.hh \
- /usr/local/include/liveMedia/MPEG2TransportUDPServerMediaSubsession.hh \
- /usr/local/include/liveMedia/MatroskaFileServerDemux.hh \
- /usr/local/include/liveMedia/MatroskaFile.hh \
- /usr/local/include/liveMedia/OggFileServerDemux.hh \
- /usr/local/include/liveMedia/OggFile.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamDemux.hh \
- /usr/local/include/liveMedia/ProxyServerMediaSession.hh \
- /usr/local/include/liveMedia/MediaTranscodingTable.hh \
- /usr/local/include/liveMedia/HLSSegmenter.hh \
- /usr/local/include/liveMedia/MPEG2TransportStreamAccumulator.hh \
- /usr/local/include/BasicUsageEnvironment/BasicUsageEnvironment.hh \
- /usr/local/include/BasicUsageEnvironment/BasicUsageEnvironment0.hh \
- /usr/local/include/BasicUsageEnvironment/BasicUsageEnvironment_version.hh \
- /usr/local/include/BasicUsageEnvironment/DelayQueue.hh \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/local/include/groupsock/GroupsockHelper.hh \
- /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
- /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/this_thread_sleep.h
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/string \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/c++config.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/os_defines.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/features.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/long-double.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/gnu/stubs-lp64.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/cpu_defines.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stringfwd.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/memoryfwd.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/char_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_algobase.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/functexcept.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/exception_defines.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/cpp_type_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/type_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/numeric_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_pair.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/move.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/concept_check.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/type_traits \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_iterator_base_types.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_iterator_base_funcs.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/debug/assertions.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_iterator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/ptr_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/debug/debug.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/predefined_ops.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/postypes.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cwchar \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/wchar.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/libc-header-start.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdio.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stdarg.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/wchar.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stddef.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/xlocale.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cstdint \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stdint.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdint.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/typesizes.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/allocator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/c++allocator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/new_allocator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/new \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/exception \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/exception.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/exception_ptr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/cxxabi_init_exception.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/typeinfo \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/hash_bytes.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/nested_exception.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/localefwd.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/c++locale.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/clocale \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/locale.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/locale.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/iosfwd \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cctype \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/ctype.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/endian.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/endian.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/byteswap.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/byteswap-16.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/uintn-identity.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/ostream_insert.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/cxxabi_forced.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_function.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/backward/binders.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/range_access.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/initializer_list \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/basic_string.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/atomicity.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/gthr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/gthr-default.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/pthread.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sched.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/time_t.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_timespec.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sched.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/time.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/time.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/timex.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_timeval.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/clock_t.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_tm.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/clockid_t.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/timer_t.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_itimerspec.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/pthreadtypes.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/setjmp.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/atomic_word.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/alloc_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/alloc_traits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/string_conversions.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cstdlib \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdlib.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/waitflags.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/waitstatus.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/types.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/select.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/select.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sigset.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/sysmacros.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sysmacros.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/alloca.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/stdlib-float.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/std_abs.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cstdio \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/libio.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/_G_config.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/stdio_lim.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sys_errlist.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cerrno \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/errno.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/errno.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/linux/errno.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm/errno.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm-generic/errno.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm-generic/errno-base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/functional_hash.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/basic_string.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/vector \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_construct.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_uninitialized.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_vector.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_bvector.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/vector.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/mutex \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/tuple \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/utility \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_relops.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/array \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/stdexcept \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/uses_allocator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/invoke.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/chrono \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ratio \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/limits \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ctime \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/parse_numbers.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/system_error \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/error_constants.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/std_mutex.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/deque \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_deque.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/deque.tcc \
+ /workspace/live/liveMedia/include/liveMedia.hh \
+ /workspace/live/liveMedia/include/JPEG2000VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/MultiFramedRTPSource.hh \
+ /workspace/live/liveMedia/include/RTPSource.hh \
+ /workspace/live/liveMedia/include/FramedSource.hh \
+ /workspace/live/groupsock/include/NetCommon.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/socket.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/uio.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/uio.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/socket.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/socket_type.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sockaddr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm/socket.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm-generic/socket.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm/sockios.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/asm-generic/sockios.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_osockaddr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/time.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/netinet/in.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/in.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/arpa/inet.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/netdb.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/rpc/netdb.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/siginfo.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/netdb.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/unistd.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/posix_opt.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/environments.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/confname.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/getopt.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/string.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/stdlib.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/strings.h \
+ /workspace/live/liveMedia/include/MediaSource.hh \
+ /workspace/live/liveMedia/include/Media.hh \
+ /workspace/live/liveMedia/include/liveMedia_version.hh \
+ /workspace/live/UsageEnvironment/include/HashTable.hh \
+ /workspace/live/UsageEnvironment/include/Boolean.hh \
+ /workspace/live/UsageEnvironment/include/UsageEnvironment.hh \
+ /workspace/live/UsageEnvironment/include/UsageEnvironment_version.hh \
+ /workspace/live/UsageEnvironment/include/strDup.hh \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/atomic \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/atomic_base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/atomic_lockfree_defines.h \
+ /workspace/live/liveMedia/include/RTPInterface.hh \
+ /workspace/live/liveMedia/include/TLSState.hh \
+ /opt/openssl-aarch64/include/openssl/ssl.h \
+ /opt/openssl-aarch64/include/openssl/macros.h \
+ /opt/openssl-aarch64/include/openssl/opensslconf.h \
+ /opt/openssl-aarch64/include/openssl/configuration.h \
+ /opt/openssl-aarch64/include/openssl/opensslv.h \
+ /opt/openssl-aarch64/include/openssl/e_os2.h \
+ /opt/openssl-aarch64/include/openssl/e_ostime.h \
+ /opt/openssl-aarch64/include/openssl/comp.h \
+ /opt/openssl-aarch64/include/openssl/crypto.h \
+ /opt/openssl-aarch64/include/openssl/safestack.h \
+ /opt/openssl-aarch64/include/openssl/stack.h \
+ /opt/openssl-aarch64/include/openssl/types.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include-fixed/limits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include-fixed/syslimits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/limits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/posix1_lim.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/local_lim.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/linux/limits.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/posix2_lim.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/xopen_lim.h \
+ /opt/openssl-aarch64/include/openssl/cryptoerr.h \
+ /opt/openssl-aarch64/include/openssl/symhacks.h \
+ /opt/openssl-aarch64/include/openssl/cryptoerr_legacy.h \
+ /opt/openssl-aarch64/include/openssl/core.h \
+ /opt/openssl-aarch64/include/openssl/comperr.h \
+ /opt/openssl-aarch64/include/openssl/bio.h \
+ /opt/openssl-aarch64/include/openssl/bioerr.h \
+ /opt/openssl-aarch64/include/openssl/x509.h \
+ /opt/openssl-aarch64/include/openssl/buffer.h \
+ /opt/openssl-aarch64/include/openssl/buffererr.h \
+ /opt/openssl-aarch64/include/openssl/evp.h \
+ /opt/openssl-aarch64/include/openssl/core_dispatch.h \
+ /opt/openssl-aarch64/include/openssl/indicator.h \
+ /opt/openssl-aarch64/include/openssl/params.h \
+ /opt/openssl-aarch64/include/openssl/bn.h \
+ /opt/openssl-aarch64/include/openssl/bnerr.h \
+ /opt/openssl-aarch64/include/openssl/evperr.h \
+ /opt/openssl-aarch64/include/openssl/objects.h \
+ /opt/openssl-aarch64/include/openssl/obj_mac.h \
+ /opt/openssl-aarch64/include/openssl/asn1.h \
+ /opt/openssl-aarch64/include/openssl/asn1err.h \
+ /opt/openssl-aarch64/include/openssl/objectserr.h \
+ /opt/openssl-aarch64/include/openssl/ec.h \
+ /opt/openssl-aarch64/include/openssl/ecerr.h \
+ /opt/openssl-aarch64/include/openssl/rsa.h \
+ /opt/openssl-aarch64/include/openssl/rsaerr.h \
+ /opt/openssl-aarch64/include/openssl/dsa.h \
+ /opt/openssl-aarch64/include/openssl/dh.h \
+ /opt/openssl-aarch64/include/openssl/dherr.h \
+ /opt/openssl-aarch64/include/openssl/dsaerr.h \
+ /opt/openssl-aarch64/include/openssl/sha.h \
+ /opt/openssl-aarch64/include/openssl/x509err.h \
+ /opt/openssl-aarch64/include/openssl/x509_vfy.h \
+ /opt/openssl-aarch64/include/openssl/lhash.h \
+ /opt/openssl-aarch64/include/openssl/pkcs7.h \
+ /opt/openssl-aarch64/include/openssl/pkcs7err.h \
+ /opt/openssl-aarch64/include/openssl/http.h \
+ /opt/openssl-aarch64/include/openssl/conf.h \
+ /opt/openssl-aarch64/include/openssl/conferr.h \
+ /opt/openssl-aarch64/include/openssl/conftypes.h \
+ /opt/openssl-aarch64/include/openssl/pem.h \
+ /opt/openssl-aarch64/include/openssl/pemerr.h \
+ /opt/openssl-aarch64/include/openssl/hmac.h \
+ /opt/openssl-aarch64/include/openssl/async.h \
+ /opt/openssl-aarch64/include/openssl/asyncerr.h \
+ /opt/openssl-aarch64/include/openssl/ct.h \
+ /opt/openssl-aarch64/include/openssl/cterr.h \
+ /opt/openssl-aarch64/include/openssl/sslerr.h \
+ /opt/openssl-aarch64/include/openssl/sslerr_legacy.h \
+ /opt/openssl-aarch64/include/openssl/prov_ssl.h \
+ /opt/openssl-aarch64/include/openssl/ssl2.h \
+ /opt/openssl-aarch64/include/openssl/ssl3.h \
+ /opt/openssl-aarch64/include/openssl/tls1.h \
+ /opt/openssl-aarch64/include/openssl/dtls1.h \
+ /opt/openssl-aarch64/include/openssl/srtp.h \
+ /opt/openssl-aarch64/include/openssl/quic.h \
+ /workspace/live/groupsock/include/Groupsock.hh \
+ /workspace/live/groupsock/include/groupsock_version.hh \
+ /workspace/live/groupsock/include/NetInterface.hh \
+ /workspace/live/groupsock/include/NetAddress.hh \
+ /workspace/live/groupsock/include/GroupEId.hh \
+ /workspace/live/liveMedia/include/SRTPCryptographicContext.hh \
+ /workspace/live/liveMedia/include/MIKEY.hh \
+ /workspace/live/liveMedia/include/JPEG2000VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/MultiFramedRTPSink.hh \
+ /workspace/live/liveMedia/include/RTPSink.hh \
+ /workspace/live/liveMedia/include/MediaSink.hh \
+ /workspace/live/liveMedia/include/MPEG1or2AudioRTPSink.hh \
+ /workspace/live/liveMedia/include/AudioRTPSink.hh \
+ /workspace/live/liveMedia/include/MP3ADURTPSink.hh \
+ /workspace/live/liveMedia/include/MPEG1or2VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/MPEG4ESVideoRTPSink.hh \
+ /workspace/live/liveMedia/include/AMRAudioFileSink.hh \
+ /workspace/live/liveMedia/include/FileSink.hh \
+ /workspace/live/liveMedia/include/H264VideoFileSink.hh \
+ /workspace/live/liveMedia/include/H264or5VideoFileSink.hh \
+ /workspace/live/liveMedia/include/H265VideoFileSink.hh \
+ /workspace/live/liveMedia/include/OggFileSink.hh \
+ /workspace/live/liveMedia/include/BasicUDPSink.hh \
+ /workspace/live/liveMedia/include/GSMAudioRTPSink.hh \
+ /workspace/live/liveMedia/include/H263plusVideoRTPSink.hh \
+ /workspace/live/liveMedia/include/H264VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/H264or5VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/FramedFilter.hh \
+ /workspace/live/liveMedia/include/H265VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/DVVideoRTPSource.hh \
+ /workspace/live/liveMedia/include/DVVideoRTPSink.hh \
+ /workspace/live/liveMedia/include/DVVideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/H264VideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/H264or5VideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/MPEGVideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/H265VideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/H264VideoStreamDiscreteFramer.hh \
+ /workspace/live/liveMedia/include/H264or5VideoStreamDiscreteFramer.hh \
+ /workspace/live/liveMedia/include/H265VideoStreamDiscreteFramer.hh \
+ /workspace/live/liveMedia/include/JPEGVideoRTPSink.hh \
+ /workspace/live/liveMedia/include/SimpleRTPSink.hh \
+ /workspace/live/liveMedia/include/uLawAudioFilter.hh \
+ /workspace/live/liveMedia/include/MPEG2IndexFromTransportStream.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamTrickModeFilter.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamIndexFile.hh \
+ /workspace/live/liveMedia/include/ByteStreamMultiFileSource.hh \
+ /workspace/live/liveMedia/include/ByteStreamFileSource.hh \
+ /workspace/live/liveMedia/include/FramedFileSource.hh \
+ /workspace/live/liveMedia/include/ByteStreamMemoryBufferSource.hh \
+ /workspace/live/liveMedia/include/BasicUDPSource.hh \
+ /workspace/live/liveMedia/include/SimpleRTPSource.hh \
+ /workspace/live/liveMedia/include/MPEG1or2AudioRTPSource.hh \
+ /workspace/live/liveMedia/include/MPEG4LATMAudioRTPSource.hh \
+ /workspace/live/liveMedia/include/MPEG4LATMAudioRTPSink.hh \
+ /workspace/live/liveMedia/include/MPEG4ESVideoRTPSource.hh \
+ /workspace/live/liveMedia/include/MPEG4GenericRTPSource.hh \
+ /workspace/live/liveMedia/include/MP3ADURTPSource.hh \
+ /workspace/live/liveMedia/include/QCELPAudioRTPSource.hh \
+ /workspace/live/liveMedia/include/AMRAudioRTPSource.hh \
+ /workspace/live/liveMedia/include/AMRAudioSource.hh \
+ /workspace/live/liveMedia/include/JPEGVideoRTPSource.hh \
+ /workspace/live/liveMedia/include/JPEGVideoSource.hh \
+ /workspace/live/liveMedia/include/MPEG1or2VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/VorbisAudioRTPSource.hh \
+ /workspace/live/liveMedia/include/TheoraVideoRTPSource.hh \
+ /workspace/live/liveMedia/include/VP8VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/VP9VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/RawVideoRTPSource.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamFromPESSource.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamMultiplexor.hh \
+ /workspace/live/liveMedia/include/MPEG1or2Demux.hh \
+ /workspace/live/liveMedia/include/MPEG1or2DemuxedElementaryStream.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamFromESSource.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamFramer.hh \
+ /workspace/live/liveMedia/include/ADTSAudioFileSource.hh \
+ /workspace/live/liveMedia/include/ADTSAudioStreamDiscreteFramer.hh \
+ /workspace/live/liveMedia/include/H261VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/H263plusVideoRTPSource.hh \
+ /workspace/live/liveMedia/include/H264VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/H265VideoRTPSource.hh \
+ /workspace/live/liveMedia/include/MP3FileSource.hh \
+ /workspace/live/liveMedia/include/MP3ADU.hh \
+ /workspace/live/liveMedia/include/MP3ADUinterleaving.hh \
+ /workspace/live/liveMedia/include/MP3Transcoder.hh \
+ /workspace/live/liveMedia/include/MP3ADUTranscoder.hh \
+ /workspace/live/liveMedia/include/MPEG1or2AudioStreamFramer.hh \
+ /workspace/live/liveMedia/include/H263plusVideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/AC3AudioStreamFramer.hh \
+ /workspace/live/liveMedia/include/AC3AudioRTPSource.hh \
+ /workspace/live/liveMedia/include/AC3AudioRTPSink.hh \
+ /workspace/live/liveMedia/include/VorbisAudioRTPSink.hh \
+ /workspace/live/liveMedia/include/TheoraVideoRTPSink.hh \
+ /workspace/live/liveMedia/include/VP8VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/VP9VideoRTPSink.hh \
+ /workspace/live/liveMedia/include/MPEG4GenericRTPSink.hh \
+ /workspace/live/liveMedia/include/RawVideoRTPSink.hh \
+ /workspace/live/liveMedia/include/RawVideoFrameParameters.hh \
+ /workspace/live/liveMedia/include/MPEG1or2VideoStreamDiscreteFramer.hh \
+ /workspace/live/liveMedia/include/MPEG1or2VideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/MPEG4VideoStreamDiscreteFramer.hh \
+ /workspace/live/liveMedia/include/MPEG4VideoStreamFramer.hh \
+ /workspace/live/liveMedia/include/DeviceSource.hh \
+ /workspace/live/liveMedia/include/AudioInputDevice.hh \
+ /workspace/live/liveMedia/include/WAVAudioFileSource.hh \
+ /workspace/live/liveMedia/include/StreamReplicator.hh \
+ /workspace/live/liveMedia/include/RTSPRegisterSender.hh \
+ /workspace/live/liveMedia/include/RTSPClient.hh \
+ /workspace/live/liveMedia/include/MediaSession.hh \
+ /workspace/live/liveMedia/include/RTCP.hh \
+ /workspace/live/liveMedia/include/DigestAuthentication.hh \
+ /workspace/live/liveMedia/include/RTSPServer.hh \
+ /workspace/live/liveMedia/include/GenericMediaServer.hh \
+ /workspace/live/liveMedia/include/ServerMediaSession.hh \
+ /workspace/live/liveMedia/include/SIPClient.hh \
+ /workspace/live/liveMedia/include/QuickTimeFileSink.hh \
+ /workspace/live/liveMedia/include/QuickTimeGenericRTPSource.hh \
+ /workspace/live/liveMedia/include/AVIFileSink.hh \
+ /workspace/live/liveMedia/include/PassiveServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/MPEG4VideoFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/FileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/OnDemandServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/H264VideoFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/H265VideoFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/WAVAudioFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/AMRAudioFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/AMRAudioFileSource.hh \
+ /workspace/live/liveMedia/include/AMRAudioRTPSink.hh \
+ /workspace/live/liveMedia/include/T140TextRTPSink.hh \
+ /workspace/live/liveMedia/include/TextRTPSink.hh \
+ /workspace/live/liveMedia/include/MP3AudioFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/MPEG1or2VideoFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/MPEG1or2FileServerDemux.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/H263plusVideoFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/ADTSAudioFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/DVVideoFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/AC3AudioFileServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportUDPServerMediaSubsession.hh \
+ /workspace/live/liveMedia/include/MatroskaFileServerDemux.hh \
+ /workspace/live/liveMedia/include/MatroskaFile.hh \
+ /workspace/live/liveMedia/include/OggFileServerDemux.hh \
+ /workspace/live/liveMedia/include/OggFile.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamDemux.hh \
+ /workspace/live/liveMedia/include/ProxyServerMediaSession.hh \
+ /workspace/live/liveMedia/include/MediaTranscodingTable.hh \
+ /workspace/live/liveMedia/include/HLSSegmenter.hh \
+ /workspace/live/liveMedia/include/MPEG2TransportStreamAccumulator.hh \
+ /workspace/live/BasicUsageEnvironment/include/BasicUsageEnvironment.hh \
+ /workspace/live/BasicUsageEnvironment/include/BasicUsageEnvironment0.hh \
+ /workspace/live/BasicUsageEnvironment/include/BasicUsageEnvironment_version.hh \
+ /workspace/live/BasicUsageEnvironment/include/DelayQueue.hh \
+ /workspace/live/groupsock/include/GroupsockHelper.hh \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/iostream \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ostream \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ios \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/ios_base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_classes.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_classes.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/streambuf \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/streambuf.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/basic_ios.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_facets.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cwctype \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/wctype.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/ctype_base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/streambuf_iterator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/ctype_inline.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_facets.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/basic_ios.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/ostream.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/istream \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/istream.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/thread \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/memory \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_tempbuf.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/stl_raw_storage_iter.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/concurrence.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/unique_ptr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/shared_ptr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/shared_ptr_base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/allocated_ptr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/refwrap.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ext/aligned_buffer.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/shared_ptr_atomic.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/backward/auto_ptr.h
