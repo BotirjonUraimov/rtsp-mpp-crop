@@ -45,6 +45,10 @@ bool RgaCrop::crop(MppFrame src, MppFrame& dst) {
     MppBuffer dst_buf = nullptr;
     MppBufferGroup grp = nullptr;
 
+    std::cout << "[RGA1] Cropping frame: "
+              << src_w << "x" << src_h << " to "
+              << roi_w << "x" << roi_h << "\n";
+              
     if (mpp_buffer_group_get_internal(&grp, MPP_BUFFER_TYPE_DRM) != MPP_OK) {
         std::cerr << "[RGA1] Failed to get buffer group\n";
         return false;

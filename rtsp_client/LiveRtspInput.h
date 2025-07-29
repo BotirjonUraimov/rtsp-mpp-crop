@@ -3,6 +3,7 @@
 #include <functional>
 #include <thread>
 #include <string>
+#include <atomic>
 
 class LiveRtspInput {
 public:
@@ -13,12 +14,18 @@ public:
 
     void set_on_frame(FrameCallback cb);
     void start();
+    void stop();
+    
+    
 
+    FrameCallback m_on_frame;
 private:
     std::string m_url;
-    FrameCallback m_on_frame;
     std::thread m_thread;
-    bool m_running;
+    std::atomic<bool> m_running;   // <== bool emas, atomic
+    char m_watchVar = 0; 
+ // Live555 event loop uchun
 
     void run();
+
 };

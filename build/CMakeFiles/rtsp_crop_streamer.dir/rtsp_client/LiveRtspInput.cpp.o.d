@@ -158,6 +158,7 @@ CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o: \
  /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/atomic_base.h \
  /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/atomic_lockfree_defines.h \
  /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/backward/auto_ptr.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/atomic \
  /workspace/live/liveMedia/include/liveMedia.hh \
  /workspace/live/liveMedia/include/JPEG2000VideoRTPSource.hh \
  /workspace/live/liveMedia/include/MultiFramedRTPSource.hh \
@@ -199,7 +200,6 @@ CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o: \
  /workspace/live/UsageEnvironment/include/UsageEnvironment.hh \
  /workspace/live/UsageEnvironment/include/UsageEnvironment_version.hh \
  /workspace/live/UsageEnvironment/include/strDup.hh \
- /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/atomic \
  /workspace/live/liveMedia/include/RTPInterface.hh \
  /workspace/live/liveMedia/include/TLSState.hh \
  /opt/openssl-aarch64/include/openssl/ssl.h \
@@ -429,4 +429,26 @@ CMakeFiles/rtsp_crop_streamer.dir/rtsp_client/LiveRtspInput.cpp.o: \
  /workspace/live/BasicUsageEnvironment/include/BasicUsageEnvironment.hh \
  /workspace/live/BasicUsageEnvironment/include/BasicUsageEnvironment0.hh \
  /workspace/live/BasicUsageEnvironment/include/BasicUsageEnvironment_version.hh \
- /workspace/live/BasicUsageEnvironment/include/DelayQueue.hh
+ /workspace/live/BasicUsageEnvironment/include/DelayQueue.hh \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/iostream \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ostream \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/ios \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/ios_base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_classes.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_classes.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/system_error \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/error_constants.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/streambuf \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/streambuf.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/basic_ios.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_facets.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/cwctype \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/wctype.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/ctype_base.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/streambuf_iterator.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/aarch64-linux-gnu/bits/ctype_inline.h \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/locale_facets.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/basic_ios.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/ostream.tcc \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/istream \
+ /opt/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/7.5.0/bits/istream.tcc

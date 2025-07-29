@@ -6,7 +6,7 @@
 
 class MppEncoder {
 public:
-    MppEncoder(int width, int height);
+    MppEncoder(int width, int height, MppCodingType type = MPP_VIDEO_CodingAVC);
     ~MppEncoder();
 
     bool init();
@@ -15,6 +15,7 @@ public:
 private:
     int width;
     int height;
+    MppCodingType codec_type;
 
     MppCtx ctx;
     MppApi* mpi;

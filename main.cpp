@@ -6,6 +6,7 @@
 #include "crop/RgaCrop.h"   
 #include "rtsp_client/LiveRtspInput.h"
 #include "rtsp_server/LiveRtspOutput.h"
+#include <mpp_frame.h>
 
 #define INPUT_RTSP  "rtsp://10.0.0.31/media/1/1/Profile1"
 #define OUTPUT_PATH "/tmp/encoded.h264" // temporary pipe file for live555 to read
@@ -16,18 +17,20 @@ int main() {
     // 1. Init decoder
     std::cout << "[INFO] Initializing MPP decoder...\n";
     MppDecoder decoder;
-    if (!decoder.init(MPP_VIDEO_CodingAVC)) {
+    if (!decoder.init(MPP_VIDEO_CodingAVC)) {   // H.265 decode
         std::cerr << "[ERROR] Decoder init failed" << std::endl;
         return 1;
     }
 
     // 2. Init encoder
     std::cout << "[INFO] Initializing MPP encoder...\n";
-    MppEncoder encoder(1920, 1080);
+    MppEncoder encoder(1920, 1080, MPP_VIDEO_CodingAVC);
     if (!encoder.init()) {
         std::cerr << "[ERROR] Encoder init failed" << std::endl;
         return 1;
     }
+
+
 
     // 3. Init cropper
     // Im2dCrop cropper;
@@ -36,15 +39,15 @@ int main() {
     RgaCrop cropper;                            // <== RgaCrop ishlatyapmiz
     cropper.set_roi(0, 0, 1920, 1080);
 
-    // 4. Start RTSP input thread
-    std::cout << "[INFO] Starting RTSP input...\n";
     LiveRtspInput input(INPUT_RTSP);
     input.set_on_frame([&](uint8_t* data, size_t size) {
-        MppFrame frame;
-        if (!decoder.decode(data, size, frame)) return;
+        std::cout << "[DEBUG] Frame size=" << size << " bytes" << std::endl;
+
+        MppFrame decoded;
+        if (!decoder.decode(data, size, decoded)) return;
 
         MppFrame cropped;
-        if (!cropper.crop(frame, cropped)) return;
+        if (!cropper.crop(decoded, cropped)) return;
 
         std::vector<uint8_t> encoded;
         if (!encoder.encode(cropped, encoded)) return;

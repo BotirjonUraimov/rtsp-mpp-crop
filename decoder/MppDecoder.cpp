@@ -1,6 +1,7 @@
 #include "MppDecoder.h"
 #include <iostream>
 
+
 MppDecoder::MppDecoder()
     : ctx(nullptr), mpi(nullptr), packet(nullptr), codec_type(MPP_VIDEO_CodingAVC) {}
 
@@ -21,6 +22,8 @@ bool MppDecoder::init(MppCodingType type) {
         std::cerr << "[MPP] Failed to init decoder ctx\n";
         return false;
     }
+    std::cout << "[MPP] Decoder initialized for codec type: " 
+              << (codec_type == MPP_VIDEO_CodingHEVC ? "H.265" : "H.264") << "\n";
 
     initialized = true;
     return true;
@@ -29,31 +32,46 @@ bool MppDecoder::init(MppCodingType type) {
 bool MppDecoder::decode(uint8_t* data, size_t size, MppFrame& outFrame) {
     if (!initialized) return false;
 
-    // Init packet
-    if (mpp_packet_init(&packet, data, size) != MPP_OK) {
-        std::cerr << "[MPP] Failed to init packet\n";
-        return false;
+    if (data && size > 0) {
+        // SPS/PPS/VPS detection (debug uchun)
+        int nal_type = (data[0] & 0x7E) >> 1;
+        if (nal_type == 32) std::cout << "[NAL] VPS detected\n";
+        if (nal_type == 33) std::cout << "[NAL] SPS detected\n";
+        if (nal_type == 34) std::cout << "[NAL] PPS detected\n";
+        if (nal_type == 19 || nal_type == 20) std::cout << "[NAL] IDR (keyframe) detected\n";
+
+        if (mpp_packet_init(&packet, data, size) != MPP_OK) {
+            std::cerr << "[MPP] Failed to init packet\n";
+            return false;
+        }
+
+        if (mpi->decode_put_packet(ctx, packet) != MPP_OK) {
+            std::cerr << "[MPP] Failed to put packet\n";
+            mpp_packet_deinit(&packet);
+            return false;
+        }
+
+        mpp_packet_deinit(&packet);
     }
 
-    // Send packet to decoder
-    if (mpi->decode_put_packet(ctx, packet) != MPP_OK) {
-        std::cerr << "[MPP] Failed to put packet\n";
-        return false;
-    }
-
-    // Get decoded frame
-    MppTask task = nullptr;
+    // Try multiple times to get a frame
     MppFrame frame = nullptr;
-
-    if (mpi->decode_get_frame(ctx, &frame) != MPP_OK) {
-        std::cerr << "[MPP] Failed to get frame\n";
-        return false;
+    for (int i = 0; i < 3; i++) {
+        if (mpi->decode_get_frame(ctx, &frame) != MPP_OK) {
+            std::cerr << "[MPP] Failed to get frame\n";
+            return false;
+        }
+        if (frame) break;
     }
 
     if (frame) {
-        outFrame = frame; // pass it out
+        std::cout << "[MPP] Decoded frame: "
+                  << mpp_frame_get_width(frame) << "x"
+                  << mpp_frame_get_height(frame) << "\n";
+        outFrame = frame;
         return true;
     }
 
+    std::cerr << "[MPP] No frame decoded yet\n";
     return false;
 }
