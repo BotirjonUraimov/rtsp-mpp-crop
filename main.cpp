@@ -17,7 +17,7 @@ int main() {
     // 1. Init decoder
     std::cout << "[INFO] Initializing MPP decoder...\n";
     MppDecoder decoder;
-    if (!decoder.init(MPP_VIDEO_CodingAVC)) {   // H.265 decode
+    if (!decoder.init(MPP_VIDEO_CodingAVC)) {   // H.264 decode
         std::cerr << "[ERROR] Decoder init failed" << std::endl;
         return 1;
     }
@@ -44,7 +44,11 @@ int main() {
         std::cout << "[DEBUG] Frame size=" << size << " bytes" << std::endl;
 
         MppFrame decoded;
+
+        std::cout << "[DEBUG] Decoding frame...\n";
+    
         if (!decoder.decode(data, size, decoded)) return;
+        std::cout << "[DEBUG] Frame decoded successfully\n";
 
         MppFrame cropped;
         if (!cropper.crop(decoded, cropped)) return;
