@@ -9,7 +9,7 @@ public:
     MppDecoder();
     ~MppDecoder();
 
-    bool init(MppCodingType type);
+    bool init(MppCodingType type = MPP_VIDEO_CodingAVC);
     bool decode(uint8_t* data, size_t size, MppFrame& outFrame);
 
 private:
